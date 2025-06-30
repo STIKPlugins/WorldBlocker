@@ -1,0 +1,26 @@
+# Join our discord - https://discord.gg/YGzA4UxzFB you can find another good plugins there.
+# Permissions
+# "worldblocker.reload" - permission required to use "/worldblocker reload" command
+
+# blocks all entities except players
+blockAllEntities: false
+
+# if true, all players without immunePermission will be blocked
+blockPlayers: true
+
+# if true, all players will be blocked, even if they have immunePermission
+ignoreImmunePermission: false
+immunePermission: "worldblocker.immune"
+
+# if true, player will get message when he fails to enter blocked world
+doSendMessage: true
+# supports MiniMessage
+canNotEnterWorld: "<red>✘ <white>You can't enter this world!"
+
+noPermissionToReload: "<red>✘ <white>You don't have permission to reload Config!"
+configReloaded: "<green>✔ <white>Config reloaded!"
+
+blockedWorlds:
+#  - "world"
+#  - "world_nether"
+#  - "world_the_end"

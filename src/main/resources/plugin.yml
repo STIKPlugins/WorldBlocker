@@ -1,0 +1,7 @@
+name: WorldBlocker
+version: '1.0'
+main: me.stokmenn.worldblocker.WorldBlocker
+api-version: '1.21'
+folia-supported: true
+commands:
+  worldblocker:
